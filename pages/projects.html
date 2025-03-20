@@ -77,16 +77,22 @@
                   <h3><strong>Living with AI: Scams and Security</strong></h3>
                   <p>Investigating how fraudsters exploit AI and deepfake technology, and what can be done to protect against these threats. </p>
                     <p><em>Winner of Best Business Technology Reporting at the Hang Seng University Business Journalism Awards 2024.</em></p>
-                  <iframe src="https://www.facebook.com/plugins/video.php?href=https://fb.watch/mIiomROBvE/?mibextid=qC1gEa" width="560" height="315" style="border:none;overflow:hidden; margin-bottom: 50px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowfullscreen="true"></iframe>
+                  <div class="video-wrapper">
+                    <iframe src="https://www.facebook.com/plugins/video.php?href=https://fb.watch/mIiomROBvE/?mibextid=qC1gEa" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowfullscreen="true"></iframe>
+                  </div>
                   
                   <h3><strong>Learning with AI: Bots vs. Brains</strong></h3>
                   <p>Examining how AI is transforming education and whether it can truly replace human learning. </p>
                     <p><em>Recognized at the Asia-Pacific Broadcasting Union Prizes 2024, Perspective Awards.</em></p>
-                  <iframe src="https://www.facebook.com/plugins/video.php?href=https://fb.watch/mpQW1uZyui/?mibextid=cr9u03" width="560" height="315" style="border:none;overflow:hidden; margin-bottom: 50px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowfullscreen="true"></iframe>
+                  <div class="video-wrapper">
+                    <iframe src="https://www.facebook.com/plugins/video.php?href=https://fb.watch/mpQW1uZyui/?mibextid=cr9u03" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowfullscreen="true"></iframe>
+                  </div>
                   
                   <h3><strong>Healing with AI: Data and Diagnostics</strong></h3>
                   <p>Exploring AI's role in revolutionizing healthcare, from medical data analysis to diagnostics.</p>
-                  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRTHKEnglishNews%2Fvideos%2F321472900318869%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden; margin-bottom: 20px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                  <div class="video-wrapper">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRTHKEnglishNews%2Fvideos%2F321472900318869%2F&show_text=false&width=560&t=0" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                  </div>
                   
                   
                 </div><!--/blog_post_content-->
@@ -111,4 +117,20 @@
       </p>
     </section>
   
+  <!-- Add responsive styles for iframes -->
+  <style>
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
+      overflow: hidden;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </body></html>
